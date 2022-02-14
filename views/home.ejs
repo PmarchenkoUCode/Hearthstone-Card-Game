@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Headstone</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css" />
+	<link rel="stylesheet" type="text/css" href="css/cardShow.css" />
+</head>
+<body>
+	<div id="theBoard">
+		<div id="info"></div>
+		<div id="enemyHand">
+			<div class="card backcard">a</div>
+			<div class="card backcard">a</div>
+			<div class="card backcard">a</div>
+		</div>
+		<div id="enemyPlayer"></div>
+		<div id="enemygems"></div>
+		<div id="theMap">
+			<div id="enemyTeam">	
+				<div class="card">
+					<div class="attack">1</div>
+					<div class="health">2</div>
+					<div class="cost">3</div>
+				</div>
+			</div>
+			<div id="myTeam">
+				<div class="card">
+					<div class="attack">1</div>
+					<div class="health">2</div>
+					<div class="cost">3</div>
+				</div>
+			</div>
+		</div>
+		<div id="nextTurn">Next move</div>
+		<div id="mygems"></div>
+
+		<div id="myHand">
+			<div class="card">
+				<div class="attack">1</div>
+				<div class="health">2</div>
+				<div class="cost">3</div>
+			</div>
+		</div>
+	</div>
+	<nav id="menu">
+		<a class="items">play</a>
+		<a class="items">deck</a>
+		<a class="items">cards</a>
+	</nav>
+	<div id="cards">
+		<div id="gameCards">
+		</div>
+		<button type="button" id="backToMenu" class="backToMenu">Menu</button>
+	</div>
+	<div id="decks">
+		<div id="gameDecks">
+		</div>
+		<button type="button" id="backToMenu" class="backToMenu">Menu</button>
+		<button type="button" id="CreaterandomDeck">Create Random deck</button>
+	</div>
+	<div id="play">
+		<div id="gameDecks">
+		</div>
+		<button type="button" id="backToMenu" class="backToMenu">Menu</button>
+	</div>
+	<div id="queue">
+		<div class="items">
+			Player search
+		</div>
+	</div>
+	<div id="gameEnd">
+		<div class="items">
+			End Game
+		</div>
+		<button type="button" id="backToMenu" class="backToMenu">back To Menu</button>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="views/items.js"></script>
+	<script type="module" src="/home.js"></script>
+</body>
+</html>
+

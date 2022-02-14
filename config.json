@@ -1,0 +1,7 @@
+{
+    "host" : "localhost",
+    "user" : "pmarchenko",
+    "database" : "card_game",
+    "password" : "password",
+    "port": "3307"
+}

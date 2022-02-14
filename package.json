@@ -1,0 +1,29 @@
+{
+    "name": "sos_end_geme_avengers",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "pmarchenko",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.0",
+        "colors": "^1.4.0",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.2",
+        "express-mysql-session": "^2.1.7",
+        "express-session": "^1.17.2",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "nodemailer": "^6.6.2",
+        "nodemon": "^2.0.7",
+        "socket.io": "^4.1.2"
+    },
+    "description": "End Game Project of Full-Stack UCode IT Academy: pmarchenko"
+}
